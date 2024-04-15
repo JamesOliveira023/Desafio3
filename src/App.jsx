@@ -9,9 +9,9 @@ function App() {
   
   return (
     <>
-       <div class="titulo">
-      <header class="header">
-  <nav class="nav-bar">
+       <div className="titulo">
+      <header className="header">
+  <nav className="nav-bar">
     <ul>
       <li><a href="#">Projetos</a></li>
       <li><a href="#">Tecnologia</a></li>
@@ -19,26 +19,26 @@ function App() {
         </ul>
   </nav>
     <a href="https://www.linkedin.com/in/james-rodrigo/">
-    <img class='img1' src={linkdin} alt="linkdin" />
+    <img className='img1' src={linkdin} alt="linkdin" />
     </a>
     <a href="https://github.com/JamesOliveira023">
-    <img class='img2'  src={git} alt="git" />
+    <img className='img2'  src={git} alt="git" />
     </a>
   </header>
   </div>
-    <h1 class="titulo-principal">Ola,sou James Desenvolvedor FullStack</h1>
+    <h1 className="titulo-principal">Ola,sou James Desenvolvedor FullStack</h1>
     <p id='sub-titulo'>Estou atualmente em um processo de transição de carreira,
     buscando novos caminhos<br/> e oportunidades para expandir meus horizontes profissionais.<br/>
     Minha jornada envolve exploração, aprendizado e crescimento,<br/>
     enquanto me preparo para abraçar os desafios e realizações que estão por vir.</p>
-  <button class="button">Saber Mais</button>
+  <button className="button">Saber Mais</button>
 <div>
   <h3 id='h3'>Projetos</h3>
 
   <div className="card-container">
   <div  className="card">
     
-     <img class="img3" src={projeto1} alt="Descrição da Imagem 1" />
+     <img className="img3" src={projeto1} alt="Descrição da Imagem 1" />
      <h4 className='CardCSS'>Projeto 1</h4>
      <p className='SubDescrição'>Projeto de pesquisa de informação de paises , nele vc encontra os dados básicos de casa pais pesquisado.</p>
     <a href="https://pesquiseopais.netlify.app/">
