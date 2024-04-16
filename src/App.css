@@ -5,38 +5,317 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+.header {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; 
+  margin-bottom: 20px; 
+}
+
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+.titulo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  
+}
+.img1{
+  position: absolute;
+  top: 0;
+  left: 1280px;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  padding: 2.5px 3.5px 3.83px 3.5px;
+  border-radius: 3px;
+
+}
+.img2{
+  position: absolute;
+  top: 0;
+  right: 40px; 
+  width: 32px;
+  height: 32px;
+  padding: 2.5px 3.5px 3.83px 3.5px;
+  border-radius: 3px;
+}
+
+.titulo-principal {
+margin-right: 450px;
+width: 700px;
+margin-top: 100px;
+color: rgba(255, 255, 255, 1); 
+
+}
+#sub-titulo{
+  color: rgba(188, 188, 188, 1);
+  margin-right: 400px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  margin-right: 400px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
+  a:hover {
+    color: #747bff;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+      }
+  
+  .card {
+      margin:  40px;
+      Width: 295px;
+      left:  5px;
+      height: 497px;
+      left: 3px;        
+      border: 1px solid rgb(134, 130, 130); 
+      background-color: black; 
+      box-shadow: 0 0 13px rgba(255, 242, 242, 0.5); 
+      border-radius: 83px 0px 0px 0px;; 
+      padding: 20px; 
+      color: white;            
+                 
   }
+    #h3{
+      font-family: Poppins;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 96px;
+      color: rgba(255, 255, 255, 1);
+      width: 600px;
+      height: 96px;
+      top: 896px;
+      left: 192px;    
+      size: 64px;       
+    }
+    
+  .img3{
+    width: 100%;
+  height: 250px;
+  top: 1110px;
+  left: 325px; 
+  border-radius: 83px 0px 0px 0px;
+  }
+  .img4{
+    width: 100%;
+    height: 250px;
+    top: 1110px;
+    left: 325px;   
+    border-radius: 83px 0px 0px 0px;
+  }
+  .CardCSS{
+    width: 154px;
+height: 32px;
+top: 1401px;
+left: 483px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 31.86px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+  }
+.SubDescrição{
+  color: rgba(255, 255, 255, 1);
+
+}
+.card-button{
+  
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    margin-right: 00px;
+    cursor: pointer;
+   transition: 0.25s;
+  border-color: #646cff;  
+  button:focus, button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+  
+}
+}
+.timeline {
+  position: relative;
+  width: 80%;
+  height: 3px; /* Reduzindo a altura da linha para 1px */
+  background-color: white;
+  margin-top: 20px; /* Defina a margem superior conforme necessário */
+  left: 10%; 
 }
 
-.card {
-  padding: 2em;
+.marker {
+  position: absolute;
+  background-color: white;
+  width: 12px; /* Tamanho da bolinha */
+  height: 12px; /* Tamanho da bolinha */
+  border-radius: 50%; /* Formato da bolinha */
+  top: -5px; /* Posição vertical da bolinha */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 10px; 
+  color: black; 
+  line-height: 12px;
 }
 
-.read-the-docs {
-  color: #888;
+.marker:nth-child(1) {
+  left: 0; 
 }
+
+.marker:nth-child(2) {
+  left: 33.33%;
+}
+
+.marker:nth-child(3) {
+  left: 66.66%; 
+}
+
+.marker:nth-child(4) {
+  left: 99.99%; 
+}
+.marker::before {
+  content: attr(data-label); /
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: aliceblue;
+}
+.marker {
+    width: 12px; 
+  height: 12px; 
+  border-radius: 50%; 
+  color: aliceblue;  
+}
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+/* Footer.css */
+
+.footer-content {
+  margin-right: 176px;
+  margin-top: 50px;
+  
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-item {
+  margin-bottom: 10px; /* Adicione margem entre os itens de contato */
+}
+
+.logo1{
+  margin-left: 00px;
+  width: 40px; 
+ 
+}
+.logo2{
+  margin-left: 00px;
+  width: 40px; /* Defina o tamanho desejado para as logos */
+
+}
+.logo3{
+  margin-left: 00px;
+  width: 40px; /* Defina o tamanho desejado para as logos */
+  }
