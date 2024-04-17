@@ -128,7 +128,7 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+}:root {
     color: #213547;
     background-color: #ffffff;
   }
@@ -264,8 +264,8 @@ color: rgba(255, 255, 255, 1);
   left: 99.99%; 
 }
 .marker::before {
-  content: attr(data-label); /
-  position: absolute;
+  content: attr(data-label); 
+  position : absolute;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
@@ -287,13 +287,22 @@ color: rgba(255, 255, 255, 1);
   vertical-align: top;
   margin-right: 20px;
 }
-/* Footer.css */
+
 
 .footer-content {
-  margin-right: 176px;
-  margin-top: 50px;
   
-}
+  
+  width: 1401px;
+  height: 126px;
+  margin: 0 auto;
+  background-color: #242424;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+
 
 .contact-info {
   display: flex;
@@ -319,3 +328,4 @@ color: rgba(255, 255, 255, 1);
   margin-left: 00px;
   width: 40px; /* Defina o tamanho desejado para as logos */
   }
+ 
